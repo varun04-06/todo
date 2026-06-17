@@ -1,0 +1,22 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "Todo simple app for maintaining day to day to - do activities",
+  "keywords": [
+    "todo",
+    "crud"
+  ],
+  "license": "ISC",
+  "author": "varun",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "ejs": "^6.0.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.7.0",
+    "nodemon": "^3.1.14"
+  }
+}
